@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    just check above then 80%
+    <form  action="#" onsubmit=" calculate()">
+        <input type="number" required id="percentage" placeholder="write your %">
+        <br>
+        <button>Check your grade</button>
+
+    </form>
+    <h1 id="result"></h1>
+
+
+
+
+
+
+    <script>
+
+        let x = +document.getElementById("percentage").value;
+       
+        function calculate(){
+
+        if (x => 80) {
+                document.getElementById("result").innerHTML= "A+"
+        }
+
+    }
+    
+    </script>
+</body>
+
+</html>
